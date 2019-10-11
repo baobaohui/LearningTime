@@ -1,0 +1,120 @@
+/* pages/student/st_home_page/st_cs_pointto/st_cs_pointto.wxss */
+
+.st_cs_pointto0 {
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+
+.st_cs_pointto1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.st_cs_pointto2 {
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+}
+
+.st_cs_pointto3 {
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+}
+
+.st_cs_pointto4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60rpx;
+}
+
+.st_cs_pointto5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60rpx;
+  background-color: greenyellow;
+}
+
+.st_cs_pointto6 {
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker2 {
+  margin: 2 2%;
+  padding: 0 2%;
+  font-size: 30rpx;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+
+/* 日期选择 */
+
+.picker_group {
+  justify-content: center;
+  display: flex;
+  font-size: 30rpx;
+  color: #888;
+  border-bottom: 1rpx solid bisque;
+}
+
+.picker_group picker {
+  /* background-color: yellow; */
+  color: black;
+  height: 45rpx;
+  margin: 0 2%;
+  padding: 0 2%;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+
+.scroll-view-y {
+  height: 120rpx;
+  width: 100%;
+}
+
+.scroll-view-y2 {
+  height: 160rpx;
+}
+
+.scroll-view1 {
+  height: 60rpx;
+  padding-left: 20rpx;
+  background-color: bisque;
+}
+
+.scroll-view2 {
+  height: 60rpx;
+  padding-left: 20rpx;
+  background-color: bisque;
+}
+
+.scroll-view3 {
+  height: 60rpx;
+  padding-left: 20rpx;
+  background-color: bisque;
+}
+
+.scroll-view4 {
+  height: 60rpx;
+  padding-left: 20rpx;
+  background-color: bisque;
+}

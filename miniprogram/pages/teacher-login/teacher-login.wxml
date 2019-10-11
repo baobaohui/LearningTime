@@ -1,0 +1,22 @@
+<view>
+  <view class='Image'>
+    <text>学时图标</text>
+  </view>
+
+  <view style="display:flex;flex-direction:column;margin-top:150rpx;">
+    <view class="section">
+      <input placeholder="请输入账号" auto-focus bindinput='usernameInput'/>
+    </view>
+    <view class="section">
+      <input placeholder="请输入密码" focus="{{focus}}" bindinput='passwordInput'/>
+    </view>
+    <view class="btn-area">
+      <button bindtap="bindButtonTap">登录</button>
+    </view>
+    
+  </view>
+  <view class=' TXT '>
+    <text bindtap='Te_register '>没有账号？立即注册</text>
+    <text bindtap='Te_forgetpassword '>忘记密码</text>
+  </view>
+</view>

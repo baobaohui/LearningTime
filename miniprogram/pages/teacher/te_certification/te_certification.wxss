@@ -1,0 +1,32 @@
+/* pages/teacher/te_certification/te_certification.wxss */
+.te_certification0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+  
+}
+.te_certification1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 120rpx;
+}
+.te_certification2{
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+}
+.btn{
+  width: 60%;
+  margin-top: 180rpx;
+  background-color: burlywood;
+  color: white;
+  border-radius: 25rpx;
+  align-items: center;
+  justify-content: center;
+}

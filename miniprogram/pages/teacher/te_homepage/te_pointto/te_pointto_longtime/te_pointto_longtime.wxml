@@ -1,0 +1,63 @@
+<!--pages/teacher/te_homepage/te_pointto/te_pointto_longtime/te_pointto_longtime.wxml-->
+<text class='te_pointto_longtime0'>一段时间学生点到情况页面</text>
+<view class='te_pointto_longtime1'>
+  <view class='te_pointto_longtime2'>
+    <view class='te_pointto_longtime3'>
+      <text>班级(滑块选择)</text>
+    </view>
+    <view class='te_pointto_longtime6'>
+      <text>一段时间</text>
+    </view>
+
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view style='margin-top:60rpx;padding-left:15rpx;'>
+    <view class='te_pointto_longtime3'>
+      <text>点到情况</text>
+    </view>
+  </view>
+<!--class='scroll-view1' 存在没有必要性，可删除，获取数据后直接显示在下方可滚动视图区域中-->
+  <view class='te_pointto_longtime5'>
+    <scroll-view scroll-y="true" class='scroll-view-y' scroll-into-view="scroll1">
+      <view id='scroll1' class='scroll-view1'>
+        <text>张光辉 4109060104 未到3次</text>
+      </view>
+      <view id='scroll2' class='scroll-view2'>
+        <text>张光辉 4109060104 未到2次</text>
+      </view>
+      <view id='scroll3' class='scroll-view3'>
+        <text>张光辉 4109060104 未到4次</text>
+      </view>
+      <view id='scroll4' class='scroll-view4'>
+        <text>张光辉 4109060104 未到3次</text>
+      </view>
+      <view id='scroll5' class='scroll-view2'>
+        <text>张光辉 4109060104 未到1次</text>
+      </view>
+      <view id='scroll5' class='scroll-view2'>
+        <text>张光辉 4109060104 未到1次</text>
+      </view>
+      <view id='scroll5' class='scroll-view2'>
+        <text>张光辉 4109060104 未到1次</text>
+      </view>
+      <view id='scroll5' class='scroll-view2'>
+        <text>张光辉 4109060104 未到1次</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

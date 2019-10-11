@@ -1,0 +1,158 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.5",
+	"appid": "wx20fba15da643b304",
+	"projectname": "%E5%AD%A6%E6%97%B6",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "student-login",
+					"pathName": "pages/student-login/student-login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "学生主页",
+					"pathName": "pages/student/st_home_page/st_home_page",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "stpt",
+					"pathName": "pages/student/st_home_page/st_pointto/st_pointto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "st_study",
+					"pathName": "pages/student/st_home_page/st_study/st_study",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "st_pointto",
+					"pathName": "pages/student/st_home_page/st_pointto/st_pointto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "st_study",
+					"pathName": "pages/student/st_home_page/st_study/st_study",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "st_mine",
+					"pathName": "pages/student/st_mine/st_mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "te_homepage",
+					"pathName": "pages/teacher/te_homepage/te_homepage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "te_pointto",
+					"pathName": "pages/teacher/te_homepage/te_pointto/te_pointto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "te_pointto_sc",
+					"pathName": "pages/teacher/te_homepage/te_pointto/te_pointto_sc/te_pointto_sc",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "te_mine",
+					"pathName": "pages/teacher/te_mine/te_mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "student-login",
+					"pathName": "pages/student-login/student-login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "st_course",
+					"pathName": "pages/student/st_home_page/st_course/st_course",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "st_course",
+					"pathName": "pages/student/st_home_page/st_course/st_course",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "te_study",
+					"pathName": "pages/teacher/te_homepage/te_study/te_study",
+					"scene": null
+				}
+			]
+		}
+	}
+}

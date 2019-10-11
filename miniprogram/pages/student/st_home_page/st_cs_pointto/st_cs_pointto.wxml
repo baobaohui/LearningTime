@@ -1,0 +1,72 @@
+<!--pages/student/st_home_page/st_cs_pointto/st_cs_pointto.wxml-->
+<text class='st_cs_pointto0'>班内人员点到页面</text>
+
+<view class='st_cs_pointto1'>
+  <view class='st_cs_pointto2'>
+    <view class='st_cs_pointto6'>
+      <text>课程选择(滑块选择)</text>
+    </view>
+
+    <picker mode="date" value="{{date}}" start="2019-05-01" end="2099-09-01" bindchange="bindDateChange1">
+      <view class="picker1">
+        <text>某天点到情况(滑块选择):</text>
+        <view class='picker2'>
+          {{date}}
+        </view>
+      </view>
+    </picker>
+  </view>
+  <view class='st_cs_pointto4'>
+    <scroll-view scroll-y="true" class='scroll-view-y' scroll-into-view="scroll1">
+      <view id='scroll1' class='scroll-view1'>
+        <text>xxx 4109060104 未到</text>
+      </view>
+      <view id='scroll2' class='scroll-view2'>
+        <text>xxx 4109060104 迟到</text>
+      </view>
+      <view id='scroll3' class='scroll-view3'>
+        <text>xxx 4109060104 迟到</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class='st_cs_pointto3'>
+    <view class='st_cs_pointto6'>
+      <text>一段时间点到情况</text>
+    </view>
+
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+
+  </view>
+  <view class='st_cs_pointto5'>
+    <scroll-view scroll-y="true" class='scroll-view-y2' scroll-into-view="scroll1">
+      <view id='scroll1' class='scroll-view1'>
+        <text>张光辉 41709060104 迟到3次</text>
+      </view>
+      <view id='scroll2' class='scroll-view2'>
+        <text>张光辉 41709060104 迟到6次</text>
+      </view>
+      <view id='scroll3' class='scroll-view3'>
+        <text>张光辉 41709060104 迟到3次</text>
+      </view>
+      <view id='scroll4' class='scroll-view4'>
+        <text>张光辉 41709060104 迟到4次</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

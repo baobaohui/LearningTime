@@ -1,0 +1,56 @@
+<!--pages/student/st_home_page/st_mpuc/st_mpuc.wxml-->
+<text class='st_study0'>学习情况页面</text>
+<view class='st_study1'>
+  <view class='st_study2'>
+    <view class='st_study6'>
+      <text>课程选择:</text>
+    </view>
+    <picker mode="date" value="{{date}}" start="2019-05-01" end="2099-09-01" bindchange="bindDateChange1">
+      <view class="picker1">
+        <text>某天学习情况</text>
+        <view class='picker2'>
+          {{date}}
+        </view>
+      </view>
+    </picker>
+  </view>
+
+  <view class='st_study4'>
+    <text>张光辉 41709060104 良好</text>
+  </view>
+
+  <view class='st_study3'>
+    <view class='st_study6'>
+      <text>一段时间学习情况</text>
+    </view>
+
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view class='st_study5'>
+    <text>张光辉 41709060104 优秀3次 良好5次 一般1次 差劲1次</text>
+  </view>
+
+  <view class='st_study3'>
+    <view class='st_study6'>
+      <text bindtap='St_cs_study'>班内人员学习情况</text>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,71 @@
+/* pages/teacher/te_homepage/te_pointto/te_pointto_oneday/te_pointto_oneday.wxss */
+.te_pointto_oneday0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+.te_pointto_oneday1{
+  display: flex;
+  flex-direction: column;
+
+}
+.te_pointto_oneday2{
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+}
+.te_pointto_oneday3{
+
+ 
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+.te_pointto_oneday4{
+  margin-top: 60rpx;
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+.te_pointto_oneday5{
+  margin-top: 60rpx;
+  height: 180rpx;
+  
+}
+.te_pointto_oneday6{
+  margin-top: 60rpx;
+  height: 180rpx;
+  background-color: bisque;
+}
+.picker1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker2 {
+  margin: 2 2%;
+  padding: 0 2%;
+  font-size: 30rpx;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+.scroll-view-y{
+  height:180rpx;
+  width: 100%;
+  background-color: bisque;
+  padding-left: 20rpx;
+}

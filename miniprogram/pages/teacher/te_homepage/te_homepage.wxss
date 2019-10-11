@@ -1,0 +1,43 @@
+/* pages/teacher/te_homepage/te_homepage.wxss */
+.te0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+.te00{
+ 
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-right: 20rpx;
+  border-right-style: solid;
+  border-right-color: burlywood;
+  border-right-width: 5rpx;
+}
+.te1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15rpx;
+
+}
+.te2{
+  margin-top: 120rpx;
+  margin-bottom: 120rpx;
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+  
+.te3{
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}

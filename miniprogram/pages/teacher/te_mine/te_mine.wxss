@@ -1,0 +1,41 @@
+/* pages/teacher/te_mine/te_mine.wxss */
+.te_mine0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+
+}
+.te_mine00{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+
+  padding-right: 20rpx;
+  border-right-style: solid;
+  border-right-color: burlywood;
+  border-right-width: 5rpx;
+}
+.te_mine1{
+  display: flex;
+  flex-direction: column;
+}
+.te_mine2{
+  margin-top: 120rpx;
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+  align-content: center;
+}
+.te_mine3{
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+}

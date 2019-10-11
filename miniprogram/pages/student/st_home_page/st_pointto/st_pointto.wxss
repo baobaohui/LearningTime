@@ -1,0 +1,93 @@
+/* pages/student/st_home_page/st_pointto/st_pointto.wxss */
+
+.stpt0 {
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+
+.stpt1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.stpt2 {
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+  padding-left: 15rpx;
+}
+
+.picker1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker2 {
+  margin: 2 2%;
+  padding: 0 2%;
+  font-size: 30rpx;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+
+.stpt3 {
+  height: 60rpx;
+  background-color: bisque;
+  padding-left: 20rpx;
+}
+
+.stpt4 {
+  display: flex;
+  flex-direction: column;
+  height: 120rpx;
+  padding-left: 20rpx;
+  background-color: bisque;
+}
+
+.stpt5 {
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.stpt6 {
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+/* 日期选择 */
+
+.picker_group {
+  justify-content: center;
+  display: flex;
+  font-size: 30rpx;
+  color: #888;
+  border-bottom: 1rpx solid bisque;
+}
+
+.picker_group picker {
+  /* background-color: yellow; */
+  color: black;
+  height: 45rpx;
+  margin: 0 2%;
+  padding: 0 2%;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}

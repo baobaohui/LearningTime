@@ -1,0 +1,13 @@
+<!--pages/teacher/te_homepage/te_pointto/te_pointto.wxml-->
+<text class='te_pointto0'>点到情况页面</text>
+<view class='te_pointto1'>
+  <view class='te_pointto2'>
+    <text bindtap='Pointto_oneday'>某天点到情况</text>
+  </view>
+  <view class='te_pointto3'>
+    <text bindtap='Pointto_longtime'>一段时间点到情况</text>
+  </view>
+  <view class='te_pointto3'>
+    <text bindtap='Pointto_sc'>所教班级情况比对</text>
+  </view>
+</view>

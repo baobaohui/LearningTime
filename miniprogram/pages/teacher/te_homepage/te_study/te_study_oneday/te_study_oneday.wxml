@@ -1,0 +1,46 @@
+<!--pages/teacher/te_homepage/te_study/te_study_oneday/te_study_oneday.wxml-->
+<text class='te_study_oneday0'>某天的学习情况页面</text>
+<view class='te_study_oneday1'>
+  <view class='te_study_oneday2'>
+    <view class='te_study_oneday3'>
+      <text>班级(滑块选择)</text>
+    </view>
+    <picker mode="date" value="{{date}}" start="2019-05-01" end="2099-09-01" bindchange="bindDateChange1">
+      <view class="picker1">
+        <text>日期(滑块选择):</text>
+        <view class='picker2'>
+          {{date}}
+        </view>
+      </view>
+    </picker>
+  </view>
+  <view style='padding-left:15rpx;'>
+    <view class='te_study_oneday4'>
+      <text>学习情况</text>
+    </view>
+  </view>
+
+  <view class='te_study_oneday5'>
+    <scroll-view scroll-y='true' class='scroll-view-y' scroll-into-view="scroll1">
+      <view id='scroll1' class='scroll-view1'>
+        <text>张光辉 41709060104 学习状态 良好</text>
+      </view>
+      <view id='scroll2' class='scroll-view2'>
+        <text>张光辉 41709060104 学习状态 良好</text>
+      </view>
+      <view id='scroll3' class='scroll-view3'>
+        <text>张光辉 41709060104 学习状态 良好</text>
+      </view>
+      <view id='scroll4' class='scroll-view4'>
+        <text>张光辉 41709060104 学习状态 良好</text>
+      </view>
+      <view id='scroll4' class='scroll-view4'>
+        <text>张光辉 41709060104 学习状态 良好</text>
+      </view>
+
+    </scroll-view>
+  </view>
+  <view class='te_study_oneday6'>
+    <input placeholder="特殊情况备注区域" auto-focus />
+  </view>
+</view>

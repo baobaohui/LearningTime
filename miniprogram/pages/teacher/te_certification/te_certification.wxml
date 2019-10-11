@@ -1,0 +1,26 @@
+<!--pages/teacher/te_certification/te_certification.wxml-->
+<text class='te_certification0'>教师个人信息认证</text>
+<view class='te_certification1'>
+
+  <view class="te_certification2">
+    <input placeholder="请输入学校名称" auto-focus bindinput='UniversitynameInput'/>
+  </view>
+   <view class="te_certification2">
+    <input placeholder="请输入学院名称" auto-focus bindinput='CollegenameInput'/>
+  </view>
+   <view class="te_certification2">
+    <input placeholder="请输入专业名称" auto-focus bindinput='ProfessionalclassInput'/>
+  </view>
+   <view class="te_certification2">
+    <input placeholder="请输入姓名" auto-focus bindinput='SnameInput'/>
+  </view>
+   <view class="te_certification2">
+    <input placeholder="请输入教师编号" auto-focus bindinput='SnoInput'/>
+  </view>
+ <view class="te_certification2">
+    <input placeholder="请输入所教班级" auto-focus bindinput='Class_collectionInput'/>
+  </view>
+<view>
+  <button class='btn' bindtap='Authenticate'>完成信息认证</button>
+</view>
+</view>

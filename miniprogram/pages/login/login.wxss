@@ -1,0 +1,31 @@
+.Image{
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 50rpx;
+  margin-left: 280rpx;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+image2{
+
+  margin-top: 50rpx;
+  margin-left: 280rpx;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60rpx;
+}
+.btn{
+  width:240rpx;
+  height:240rpx;
+  margin-top: 200rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  align-items: center;
+  font-size: 40rpx;
+  color: white;
+  background-color:bisque;
+}

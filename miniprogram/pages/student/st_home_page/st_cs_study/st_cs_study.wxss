@@ -1,0 +1,100 @@
+/* pages/student/st_home_page/st_cs_study/st_cs_study.wxss */
+
+.st_cs_study0 {
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+
+.st_cs_study1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.st_cs_study2 {
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+}
+
+.st_cs_study3 {
+  margin-top: 120rpx;
+  padding-left: 15rpx;
+}
+
+.st_cs_study4 {
+  margin-top: 60rpx;
+  height: 180rpx;
+  background-color: bisque;
+}
+
+.st_cs_study5 {
+  margin-top: 60rpx;
+  height: 180rpx;
+  background-color: bisque;
+}
+
+.st_cs_study6 {
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker2 {
+  margin: 2 2%;
+  padding: 0 2%;
+  font-size: 30rpx;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+
+/* 日期选择 */
+
+.picker_group {
+  justify-content: center;
+  display: flex;
+  font-size: 30rpx;
+  color: #888;
+  border-bottom: 1rpx solid bisque;
+}
+
+.picker_group picker {
+  /* background-color: yellow; */
+  color: black;
+  height: 45rpx;
+  margin: 0 2%;
+  padding: 0 2%;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+
+.scroll-view-y {
+  height: 180rpx;
+  width: 100%;
+  padding-left: 20rpx;
+}
+
+/*
+以下存在没有必要性，相反有可能使得数据的表现形式出现问题，等到数据获取后可以删除以下模式
+*/
+
+.scroll-view1 {
+  background-color: bisque;
+}

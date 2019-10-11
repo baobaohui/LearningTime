@@ -1,0 +1,38 @@
+/* pages/student/st_home_page/st_course/st_course.wxss */
+.st_course0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+.st_course1{
+  display: flex;
+  flex-direction: column;
+
+}
+.st_course2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 120rpx;
+  color: rgb(161, 142, 119);
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+}
+.st_course3{
+  margin-top: 60rpx;
+  color: rgb(161, 142, 119);
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+
+}

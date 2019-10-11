@@ -1,0 +1,28 @@
+<!--pages/teacher/te_mine/te_mine.wxml-->
+<view style='display:flex; justify-content: space-between'>
+<text class='te_mine0'>我的</text>
+<text class='te_mine00' bindtap='Jump_hp'>首页</text>
+</view>
+
+<view class='te_mine1'>
+  <view class='te_mine2'>
+    <text>所在学校(直接显示)</text>
+  </view>
+
+  <view class='te_mine3'>
+    <text>所在学院</text>
+  </view>
+  <view class='te_mine3'>
+    <text>所教专业</text>
+  </view>
+  <view class='te_mine3'>
+    <text>教师姓名</text>
+  </view>
+  <view class='te_mine3'>
+    <text>教师编号</text>
+  </view>
+  <view class='te_mine3'>
+    <text>所教班级</text>
+  </view>
+
+</view>

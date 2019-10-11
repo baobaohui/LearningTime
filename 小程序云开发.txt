@@ -1,0 +1,37 @@
+const db = wx.cloud.database()
+
+collection 方法获取一个集合的引用
+
+where  大于 小于  in
+get
+
+books 集合(表)
+db.collection('books').where({
+
+	publishInfo:{
+		country:'United States'
+	}
+}).get({
+	success(res){
+	console.log(res)
+}
+})
+wx.cloud.uploadFile   wx.cloud.downloadFile
+
+wx.chooseImage({
+	success:chooseResult=>{
+	wx.cloud.uploadFile({
+	cloudPath:'my-photo.png',
+	filePath:chooseResult.tempFilePaths[0],
+	success:res=>{
+	console.log('上传成功’,res)
+
+
+const db = wx.cloud.collection()
+db.collection('test').add({
+	data:{
+	test:shuzhi
+	},
+	success:res =>{
+	this.setData({
+	

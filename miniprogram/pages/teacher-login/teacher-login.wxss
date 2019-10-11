@@ -1,0 +1,33 @@
+/* pages/teacher-login/teacher-login.wxss */
+.Image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 50rpx;
+  margin-left: 330rpx;
+  align-content: center;
+  border-radius:100%;
+  background-color: #e7f3a1;
+}
+.section{
+  height: 60rpx;
+  border:5rpx solid #eee;
+  margin:3rpx;
+  font-size: 35rpx;
+  text-align: center;
+}
+.btn-area{
+  margin-top: 150rpx;
+  margin-left: 300rpx;
+  width: 200rpx;
+  height: 100rpx;
+}
+.TXT{
+  font-size:30rpx;
+  color: grey;
+  display:flex;
+  justify-content:space-between;
+  margin-top:150rpx;
+  margin-left:20rpx;
+  margin-right: 20rpx;
+
+}

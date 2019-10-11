@@ -1,0 +1,13 @@
+<view>
+  <view class='Image'>
+  
+   
+    <image style='width:180rpx;height:180rpx;margin:20rpx;border-radius:120rpx;' src='{{images2}}'></image>
+  </view>
+
+  <view style="display:flex;justify-content:space-between">
+    <button  class='btn' bindtap='Jumpstudent'><text style='margin-top:50rpx'>我是学生</text></button>
+    <button  class='btn' bindtap='Jumpteacher'>我是教师</button>
+  </view>
+
+</view>

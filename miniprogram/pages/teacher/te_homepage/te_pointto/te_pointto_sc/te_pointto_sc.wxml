@@ -1,0 +1,53 @@
+<!--pages/teacher/te_homepage/te_pointto/te_pointto_sc/te_pointto_sc.wxml-->
+<text class='te_pointto_sc0'>所教班级情况比对页面</text>
+<view class='te_pointto_sc1'>
+  <view class='te_pointto_sc2'>
+  <view class='te_pointto_sc3'>
+   <text>一段时间</text>
+  </view>
+   
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view style='display-flex;flex-direction:column;'>
+  <view style='margin-top:60rpx;padding-left:15rpx;'>
+      <view class='te_pointto_sc3'>
+      <text>点到情况</text>
+    </view>
+  </view>
+
+    <view class='te_pointto_sc4'>
+      <scroll-view scroll-y='true' class='scroll-view-y' scroll-into-view="scroll1">
+        <view id='scroll1' class='scroll-view1'>
+          <text>数字媒体技术1701 20人次未到</text>
+        </view>
+        <view id='scroll2' class='scroll-view2'>
+          <text>数字媒体技术1701 20人次未到</text>
+        </view>
+        <view id='scroll3' class='scroll-view3'>
+          <text>计算机科学与技术1701 20人次未到</text>
+        </view>
+        <view id='scroll4' >
+          <text>计算机科学与技术1701 20人次未到</text>
+        </view>
+         <view id='scroll4'>
+          <text>计算机科学与技术1701 20人次未到</text>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,92 @@
+/* pages/teacher/te_homepage/te_study/te_study_oneday/te_study_oneday.wxss */
+.te_study_oneday0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+.te_study_oneday1{
+  display: flex;
+  flex-direction: column;
+}
+.te_study_oneday2{
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+
+}
+.te_study_oneday3{
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+.te_study_oneday4{
+  margin-top: 60rpx;
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+.te_study_oneday5{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60rpx;
+  height: 240rpx;
+  background-color: bisque;
+}
+.te_study_oneday6{
+  margin-top: 60rpx;
+  height: 180rpx;
+  background-color: bisque;
+  padding-left: 20rpx;
+}
+.picker1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.picker2 {
+  margin: 2 2%;
+  padding: 0 2%;
+  font-size: 30rpx;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+.scroll-view-y {
+  height: 240rpx;
+  width: 100%;
+  padding-left: 20rpx;
+}
+
+.scroll-view1 {
+  height: 60rpx;
+  
+}
+
+.scroll-view2 {
+  height: 60rpx;
+
+}
+
+.scroll-view3 {
+  height: 60rpx;
+
+}
+
+.scroll-view4 {
+  height: 60rpx;
+
+}

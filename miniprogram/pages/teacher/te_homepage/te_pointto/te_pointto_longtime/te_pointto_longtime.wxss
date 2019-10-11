@@ -1,0 +1,98 @@
+/* pages/teacher/te_homepage/te_pointto/te_pointto_longtime/te_pointto_longtime.wxss */
+.te_pointto_longtime0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+.te_pointto_longtime1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.te_pointto_longtime2 {
+  margin-top: 60rpx;
+  padding-left: 15rpx;
+}
+
+.te_pointto_longtime3 {
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.te_pointto_longtime4 {
+  margin-top: 60rpx;
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+.te_pointto_longtime5 {
+  margin-top: 60rpx;
+  height: 300rpx;
+  background-color: bisque;
+}
+.te_pointto_longtime6{
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 37rpx;
+}
+
+/* 日期选择 */
+
+.picker_group {
+  justify-content: center;
+  display: flex;
+  font-size: 30rpx;
+  color: #888;
+  border-bottom: 1rpx solid bisque;
+}
+
+.picker_group picker {
+  /* background-color: yellow; */
+  color: black;
+  height: 45rpx;
+  margin: 0 2%;
+  padding: 0 2%;
+  border: 1rpx solid burlywood;
+  border-radius: 30rpx;
+}
+
+.scroll-view-y {
+  height: 300rpx;
+  width: 100%;
+  padding-left: 20rpx;
+}
+/*
+.scroll-view1 存在没有必要性
+*/
+.scroll-view1 {
+  height: 60rpx;
+
+}
+
+.scroll-view2 {
+  height: 60rpx;
+
+}
+
+.scroll-view3 {
+  height: 60rpx;
+
+}
+
+.scroll-view4 {
+  height: 60rpx;
+}

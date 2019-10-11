@@ -1,0 +1,51 @@
+<!--pages/teacher/te_homepage/te_study/te_study_sc/te_study_sc.wxml-->
+<text class='te_study_sc0'>所教班级学习情况比对页面</text>
+<view class='te_study_sc1'>
+  <view class='te_study_sc2'>
+    <view class='te_study_sc5'>
+      <text>一段时间</text>
+    </view>
+
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view style='display-flex;flex-direction:column'>
+    <view style='padding-left:15rpx;'>
+      <view class='te_study_sc3'>
+        <text>学习情况如下</text>
+      </view>
+    </view>
+    <!-- class='scroll-view1' 存在没有必要性，注意在一行中 使用 style:'height:120rpx';类似形式，wx:for{{}}循环放出所有从后台获得的数据-->
+    <view class='te_study_sc4'>
+      <scroll-view scroll-y='true' class='scroll-view-y' scroll-into-view="scroll1">
+        <view id='scroll1' class='scroll-view1'>
+          <text>数字媒体技术1701 优秀20人次 良好 50人次 一般 40人次 差劲 40人次</text>
+        </view>
+        <view id='scroll2' class='scroll-view2'>
+          <text>数字媒体技术1702 优秀20人次 良好 50人次 一般 40人次 差劲 40人次</text>
+        </view>
+        <view id='scroll3' class='scroll-view3'>
+          <text>计算机科学与技术1702 优秀20人次 良好 50人次 一般 40人次 差劲 40人次</text>
+        </view>
+        <view id='scroll4' class='scroll-view4'>
+          <text>计算机卓越科学与技术1702 优秀20人次 良好 50人次 一般 40人次 差劲 40人次</text>
+        </view>
+      </scroll-view>
+
+    </view>
+  </view>
+</view>

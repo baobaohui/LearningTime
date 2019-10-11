@@ -1,0 +1,59 @@
+<!--pages/student/st_home_page/st_pointto/st_pointto.wxml-->
+<text class='stpt0'>点到情况页面</text>
+
+<view class='stpt1'>
+
+  <view class="stpt2">
+    <view class='stpt5'>
+      <text>课程选择(滑块选择)</text>
+    </view>
+    <picker mode="date" value="{{date}}" start="2019-05-01" end="2099-09-01" bindchange="bindDateChange1">
+      <view class="picker1">
+        <text>某天点到情况:</text>
+        <view class='picker2'>
+          {{date}}
+        </view>
+      </view>
+    </picker>
+
+  </view>
+  <!--可滑动区域-->
+  <view class='stpt3'>
+    <text>张光辉 41709060104 未到</text>
+  </view>
+
+  <view class='stpt2'>
+    <view class='stpt6'>
+      <text>一段时间点到情况</text>
+    </view>
+
+
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+
+  </view>
+  <view class='stpt4'>
+    <text>张光辉 41709060104 迟到4次</text>
+  </view>
+  <view class='stpt2'>
+    <view class='stpt6'>
+      <text bindtap='St_cspointto'>班内人员点到情况表</text>
+    </view>
+  </view>
+
+
+</view>

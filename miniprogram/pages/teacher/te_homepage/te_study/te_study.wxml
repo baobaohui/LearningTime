@@ -1,0 +1,13 @@
+<!--pages/teacher/te_homepage/te_study/te_study.wxml-->
+<text class='te_study0'>学习情况页面</text>
+<view class='te_study1'>
+  <view class='te_study2'>
+    <text bindtap='Study_oneday'>某天学习情况</text>
+  </view>
+  <view class='te_study3'>
+    <text bindtap='Study_longtime'>一段时间学习情况</text>
+  </view>
+  <view class='te_study3'>
+    <text bindtap='Study_sc'>所教班级情况比对</text>
+  </view>
+</view>

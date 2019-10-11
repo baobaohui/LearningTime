@@ -1,0 +1,34 @@
+/* pages/student/st_mine/st_mine.wxss */
+.mine0{
+  font-size: 40rpx;
+  color: rgb(161, 142, 119);
+  padding-left: 20rpx;
+  border-left-style: solid;
+  border-left-color: burlywood;
+  border-left-width: 5rpx;
+}
+.mine1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+}
+.mine2{
+  margin-top: 120rpx;
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+  align-content: center;
+
+}
+.mine3{
+  height: 60rpx;
+  border-bottom-color: bisque;
+  border-bottom-style: solid;
+  border-bottom-width: 3rpx;
+  padding-left: 20rpx;
+  font-size: 35rpx;
+}

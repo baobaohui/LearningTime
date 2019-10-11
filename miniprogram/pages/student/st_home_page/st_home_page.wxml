@@ -1,0 +1,15 @@
+<!--pages/student/st_home_page/st_home_page.wxml-->
+<text class='st0'>学生主页</text>
+<view class='st1'>
+  <view class='st2'>
+    <text bindtap='Jump1'>课程</text>
+  </view>
+
+  <view class='st3'>
+    <text bindtap='Jump2'>点到情况</text>
+  </view>
+  <view class='st3'>
+    <text bindtap='Jump3'>学习情况</text>
+  </view>
+
+</view>

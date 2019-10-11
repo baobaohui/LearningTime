@@ -1,0 +1,26 @@
+<!--pages/student/st_certification/st_certification.wxml-->
+<text class='st_certification0'>学生个人信息认证</text>
+<view class='st_certification1'>
+
+  <view class="st_certification2">
+    <input placeholder="请输入学校名称" auto-focus bindinput='UniversitynameInput'/>
+  </view>
+   <view class="st_certification2">
+    <input placeholder="请输入学院名称" auto-focus bindinput='CollegenameInput'/>
+  </view>
+   <view class="st_certification2">
+    <input placeholder="请输入专业班级" auto-focus bindinput='ProfessionalclassInput'/>
+  </view>
+   <view class="st_certification2">
+    <input placeholder="请输入姓名" auto-focus bindinput='SnameInput'/>
+  </view>
+   <view class="st_certification2">
+    <input placeholder="请输入学号" auto-focus bindinput='SnoInput'/>
+  </view>
+ <view class="st_certification2">
+    <input placeholder="请输入所修课程" auto-focus bindinput='Course_classInput'/>
+  </view>
+<view>
+  <button class='btn' bindtap='Authenticate'>完成信息认证</button>
+</view>
+</view>

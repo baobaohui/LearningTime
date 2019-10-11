@@ -1,0 +1,52 @@
+<!--pages/teacher/te_homepage/te_study/te_study_longtime/te_study_longtime.wxml-->
+<text class='te_study_longtime0'>一段时间的学习情况页面</text>
+<view class='te_study_longtime1'>
+  <view class='te_study_longtime2'>
+    <view class='te_study_longtime3'>
+      <text>班级(滑块选择)</text>
+    </view>
+    <view class='te_study_longtime3'>
+      <text>一段时间</text>
+    </view>
+
+    <view class="page">
+      <!-- 时间段 -->
+      <view class="picker_group">
+        <picker mode="date" value="{{date}}" end="{{date2}}" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">
+          <view class="picker">
+            {{date2}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view style='padding-left:15rpx;'>
+    <view class='te_study_longtime4'>
+      <text>学习情况</text>
+    </view>
+  </view>
+  <!-- class='scroll-view1' 不是必要的，获得数据集合后，逐个循环展示在滚动视图区域内-->
+  <view class='te_study_longtime5'>
+    <scroll-view scroll-y='true' class='scroll-view-y' scroll-into-view="scroll1">
+      <view id='scroll1' class='scroll-view1'>
+        <text>张光辉 41709060104 优秀2次 良好3次 一般2次 差劲4次</text>
+      </view>
+      <view id='scroll2' class='scroll-view2'>
+        <text>张光辉 41709060104 优秀3次 良好4次 一般2次 差劲2次</text>
+      </view>
+      <view id='scroll3' class='scroll-view3'>
+        <text>张光辉 41709060104 优秀2次 良好6次 一般3次 差劲1次</text>
+      </view>
+      <view id='scroll4' class='scroll-view3'>
+        <text>张光辉 41709060104 优秀2次 良好6次 一般3次 差劲1次</text>
+      </view>
+
+    </scroll-view>
+  </view>
+</view>

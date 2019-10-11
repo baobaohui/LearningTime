@@ -1,0 +1,24 @@
+<!--pages/student/st_mine/st_mine.wxml-->
+
+<text class='mine0'>我的</text>
+<view class='mine1'>
+  <view class='mine2'>
+    <text>学校(直接在该栏目显示)</text>
+  </view>
+
+  <view class='mine3'>
+    <text>学院</text>
+  </view>
+  <view class='mine3'>
+    <text>专业班级</text>
+  </view>
+  <view class='mine3'>
+    <text>学号</text>
+  </view>
+  <view class='mine3'>
+    <text>姓名</text>
+  </view>
+    <view class='mine3'>
+    <text>所修课程</text>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/teacher/te_homepage/te_course/te_course.wxml-->
+<text class='te_course0'>课程页面</text>
+<view class='te_course1'>
+  <view class='te_course2'>
+    <text> 下一节课</text>
+  </view>
+<!-- 所教班级  这个地方应该要加一个滚动视图区域，获取数据 class_collection后在滚动视图区域中完成 对 class 的选择>
+  <view class='te_course3'>
+    <text> 所教班级 (滑块直接选择)</text>
+  </view>
+  <!-- ‘课程结束’的存在可能是没有必要性的，所以删除‘课程结束’可以作为备用选项-->
+  <view class='te_course4'>
+    <text bindtap='Pop_event1' class='te_course5'> 课程开始</text>
+    <text bindtap='Pop_event2' class='te_course5'> 课程结束</text>
+  </view>
+
+</view>

@@ -1,0 +1,15 @@
+<!--pages/student/st_home_page/st_course/st_course.wxml-->
+
+<text class='st_course0'>课程页面</text>
+
+<view class='st_course1'>
+  <view class='st_course3'>
+    <text>若接受到课程通知 点击课程通知可进入学习模式</text>
+  </view>
+
+  <view class='st_course2'>
+    <text bindtap='Pop_st_course'>课程通知</text>
+    <image style='width:50rpx;height:50rpx;margin:10rpx' src='{{images1}}'></image>
+
+  </view>
+</view>
